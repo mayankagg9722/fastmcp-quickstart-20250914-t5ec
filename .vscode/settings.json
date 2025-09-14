@@ -1,0 +1,15 @@
+{
+  "mcp.servers": {
+    "fastmcp-server": {
+      "url": "https://psychiatric-sapphire-duck.fastmcp.app/mcp",
+      "mode": "http"
+    }
+  },
+  "chat.mcp.serverSampling": {
+    "fastapi/.vscode/mcp.json: my-mcp-server-63e175b6": {
+      "allowedModels": [
+        "copilot/claude-sonnet-4"
+      ]
+    }
+  }
+}
