@@ -1,8 +1,9 @@
 {
 	"servers": {
-		"my-mcp-server-63e175b6": {
-			"url": "https://psychiatric-sapphire-duck.fastmcp.app/mcp",
-			"type": "http"
+		"local-fastmcp-server": {
+			"command": "uv",
+			"args": ["run", "python", "main.py"],
+			"type": "stdio"
 		}
 	},
 	"inputs": []
