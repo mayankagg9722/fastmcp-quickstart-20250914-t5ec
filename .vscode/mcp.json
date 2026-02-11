@@ -4,7 +4,11 @@
 			"command": "uv",
 			"args": ["run", "python", "main.py"],
 			"type": "stdio"
-		}
+		},
+		"mab-copilot": {
+            "command": "mab-copilot-mcp",
+            "type": "stdio"
+        }
 	},
 	"inputs": []
 }
